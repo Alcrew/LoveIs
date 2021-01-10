@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="2"
         android:theme="@style/Theme.LoveIisus">
-        android:supportsRtl="alga"
+        android:supportsRtl="algaa"
         android:theme="@style/Theme.LoveIs">
         <activity android:name=".MainActivity">
             <intent-filter>
