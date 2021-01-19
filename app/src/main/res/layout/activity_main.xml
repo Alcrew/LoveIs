@@ -8,60 +8,77 @@
     android:background="@color/red">
 
     <Button
-        android:id="@+id/button2"
-        android:layout_width="151dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/yellow"
-        android:text="multiplayer"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="189dp"
-        tools:layout_editor_absoluteY="511dp" />
+        android:id="@+id/button6"
+        android:layout_width="167dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#1D8ADF"
+        android:text="SUPPORT US"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="636dp" />
+
+    <LinearLayout
+        android:id="@+id/startLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+    </LinearLayout>
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="151dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/yellow"
-        android:text="credits"
-        android:textColor="@color/white"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="189dp"
-        tools:layout_editor_absoluteY="572dp" />
-
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Love Is"
-        android:textColor="@color/yellow"
-        android:textSize="30sp"
-        android:textStyle="bold"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.202" />
+        android:layout_width="167dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#1D8ADF"
+        android:text="MULTIPLAYER"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="493dp" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="151dp"
-        android:layout_height="50dp"
-        android:backgroundTint="@color/yellow"
-        android:text="START"
+        android:id="@+id/buttonStart"
+        android:layout_width="167dp"
+        android:layout_height="48dp"
+        android:layout_weight="1"
+        android:background="@drawable/button_stroke_black_press_yellow"
+        android:backgroundTint="#1D8ADF"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="@string/start"
         android:textColor="@color/white"
-        android:textStyle="bold"
-        tools:layout_editor_absoluteX="189dp"
-        tools:layout_editor_absoluteY="447dp" />
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="424dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="167dp"
+        android:layout_height="48dp"
+        android:backgroundTint="#1D8ADF"
+        android:text="CREDITS"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="566dp" />
 
     <ImageView
-        android:id="@+id/imageView4"
-        android:layout_width="373dp"
-        android:layout_height="210dp"
-        app:srcCompat="@drawable/ic_action_name"
-        tools:layout_editor_absoluteX="78dp"
-        tools:layout_editor_absoluteY="185dp" />
+        android:id="@+id/imageView2"
+        android:layout_width="411dp"
+        android:layout_height="273dp"
+        app:srcCompat="@drawable/islove2"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="134dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="173dp"
+        android:layout_height="52dp"
+        android:lineSpacingExtra="18sp"
+        android:text="Love Is"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="122dp"
+        tools:layout_editor_absoluteY="60dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
